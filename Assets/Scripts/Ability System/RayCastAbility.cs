@@ -25,12 +25,20 @@ public class RayCastAbility : Ability
 
     public override void Activate(GameObject parent)
     {
+        mandalaMan.Activate();
+        mandalaMan.StartCoroutine(WaitFire());
+    }
+
+    IEnumerator WaitFire()
+    {
+        yield return new WaitForSeconds(1);
         firing = true;
     }
 
     public override void Deactivate(GameObject parent) 
     {
         firing = false;
+        mandalaMan.Deactivate();
     }
 
     public override void Init()

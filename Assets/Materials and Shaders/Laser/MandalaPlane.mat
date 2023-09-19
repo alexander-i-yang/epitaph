@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MandalaPlane
+  m_Shader: {fileID: -6465566751694194690, guid: 6f50187b463102e498de4aaca6d2b0dc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer0:
+        m_Texture: {fileID: 18700000, guid: 11d28b9220f68664bbc2a6cafaa9e9db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer1:
+        m_Texture: {fileID: 18700000, guid: c971afeb93c79954aa97717998cf3e3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer2:
+        m_Texture: {fileID: 18700000, guid: 368a8cb13fb2bda4aaa21a856b888827, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer3:
+        m_Texture: {fileID: 18700000, guid: 45a7e2df17ed1164f85f6a922d4f8f4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6eb608b2d2a0f1e42a29c08e755c3d90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rotater_23ca6b09bf4343a4afb52adace143ce8_TexArray_2621101133_Texture2DArray:
+        m_Texture: {fileID: 18700000, guid: c971afeb93c79954aa97717998cf3e3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rotater_2fd0ca4cc16045ae9ab0e4944f2bac72_TexArray_2621101133_Texture2DArray:
+        m_Texture: {fileID: 18700000, guid: 368a8cb13fb2bda4aaa21a856b888827, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rotater_c922e566ff96458cb9d7bca367ecfed6_TexArray_2621101133_Texture2DArray:
+        m_Texture: {fileID: 18700000, guid: 45a7e2df17ed1164f85f6a922d4f8f4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rotater_d87cec7952ad454db6cef68e27d32cf3_TexArray_2621101133_Texture2DArray:
+        m_Texture: {fileID: 18700000, guid: 11d28b9220f68664bbc2a6cafaa9e9db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DArray_3872a5bde6484009a3cc7ac235ec4103_TextureArray_1_Texture2DArray:
+        m_Texture: {fileID: 18700000, guid: 11d28b9220f68664bbc2a6cafaa9e9db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f0c47d05cb244a70a328926456322b31_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7d709bb31611e5941b77e46234fc2d4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex2:
+        m_Texture: {fileID: 2800000, guid: 6103d66a5947968459673e2b1690d8b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex3:
+        m_Texture: {fileID: 2800000, guid: ea8dcd94c5c1cec4686da4596304a0af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4:
+        m_Texture: {fileID: 2800000, guid: 9b989438e5e4db849896cfa419c46762, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _EnableExternalAlpha: 0
+    - _Float: 0.49
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _alpha: 0.5
+    - _gradientSpeed: 1
+    - _rotSpeed: 1
+    - _rotSpeed0: 2
+    - _rotSpeed2: 2
+    - _rotSpeed3: 2
+    - _rotSpeed4: 3
+    - _startupAnim: 0
+    - _startupAnim1: 1
+    - _startupAnim2: 1
+    m_Colors:
+    - _Color: {r: 3.0566037, g: 0.86417055, b: 2.8460252, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _gradientL: {r: 0.42830187, g: 0.46065268, b: 1, a: 0}
+    - _gradientR: {r: 1, g: 0.3433962, b: 0.9157548, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &737598686873465906
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

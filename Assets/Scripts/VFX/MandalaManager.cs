@@ -4,6 +4,10 @@ public class MandalaManager : MonoBehaviour {
     [SerializeField] private Transform axis;
     [SerializeField] private Transform mandala;
 
+    void Start() {
+        Deactivate();
+    }
+
     //You a more robust system for updating the mandala position/enabling/disabling. Honestly I can make one if you need a sysarch guy.
     void Update() {
         var mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
@@ -20,6 +24,15 @@ public class MandalaManager : MonoBehaviour {
         var prevRot = axis.localEulerAngles;
         prevRot.y = a;
         axis.localEulerAngles = prevRot;
+    }
+
+    public void Activate() {
+        mandala.gameObject.SetActive(true);
+        // mandala.gameObject.GetComponent<Animator>().Play("Start");
+    }
+
+    public void Deactivate() {
+        mandala.gameObject.SetActive(false);
     }
 
     //Converts a vector in the xy plane to a vector on the plane orthogonal to the axis vector.
