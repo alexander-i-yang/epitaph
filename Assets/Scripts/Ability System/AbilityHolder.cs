@@ -77,25 +77,25 @@ public class AbilityHolder : MonoBehaviour
     void Update()
     {  
         if (dashAbility == null) {
-            dashAbility = abilityManager.GetHotbarAbilities()[0].GetAbility();
+            dashAbility = abilityManager.GetHotbarAbilities()[0].GetAbility().getActiveAbility();
             dashAbilityImage = abilityManager.GetHotbarSlots()[0].GetComponent<Image>();
         }
 
         if (abilityManager.GetHotbarAbilities()[1].GetAbility() != null) {
-            ability1 = abilityManager.GetHotbarAbilities()[1].GetAbility();
+            ability1 = abilityManager.GetHotbarAbilities()[1].GetAbility().getActiveAbility();
             ability1Img = abilityManager.GetHotbarSlots()[1].GetComponent<Image>();
 
         }
 
         if (abilityManager.GetHotbarAbilities()[2].GetAbility() != null) {
-            ability2 = abilityManager.GetHotbarAbilities()[2].GetAbility();
+            ability2 = abilityManager.GetHotbarAbilities()[2].GetAbility().getActiveAbility();
             ability2Img = abilityManager.GetHotbarSlots()[2].GetComponent<Image>();
 
 
         }
 
         if (abilityManager.GetHotbarAbilities()[3].GetAbility() != null) {
-            ability3 = abilityManager.GetHotbarAbilities()[3].GetAbility();
+            ability3 = abilityManager.GetHotbarAbilities()[3].GetAbility().getActiveAbility();
             ability3Img = abilityManager.GetHotbarSlots()[3].GetComponent<Image>();
 
 
