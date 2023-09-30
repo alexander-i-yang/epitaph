@@ -12,7 +12,7 @@ public class Player : Entity
     public override void Die() {
         Destroy(gameObject);
         SceneManager.LoadScene("DeathScreen");
-
+    }
 
 
 }
