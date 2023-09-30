@@ -3,6 +3,7 @@ using UnityEngine;
 public class MandalaManager : MonoBehaviour {
     [SerializeField] private Transform axis;
     [SerializeField] private Mandala mandala;
+    [SerializeField] private Animator ring;
 
     //You a more robust system for updating the mandala position/enabling/disabling. Honestly I can make one if you need a sysarch guy.
     void Update() {
@@ -43,5 +44,9 @@ public class MandalaManager : MonoBehaviour {
 
     public void Deactivate() {
         mandala.Deactivate();
+    }
+
+    public void RingFire() {
+        ring.Play("RingFire");
     }
 }

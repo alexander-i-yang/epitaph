@@ -16,7 +16,7 @@ MonoBehaviour:
   aSprite: {fileID: 21300000, guid: 064e49902f24df44a80f34136291d48f, type: 3}
   aSound: {fileID: 0}
   cooldownTime: 4
-  activeTime: 4
+  activeTime: 400
   fillAmount: 1
   rayWidth: 0.25
   range: 100

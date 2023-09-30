@@ -31,6 +31,7 @@ public class RayCastAbility : Ability
     IEnumerator ActivateRoutine() {
         mandalaMan.Activate();
         yield return new WaitForSeconds(0.5f);
+        // mandalaMan.RingFire();
         firing = true;
     }
 

@@ -74,7 +74,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _BloomAmount: {r: 1.2976133, g: 1.2976133, b: 1.2976133, a: 0}
+    - _BloomAmount: {r: 1.1320755, g: 1.1320755, b: 1.1320755, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
