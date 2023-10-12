@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Player : Entity
 {
+    [SerializeField] private bool killable;
     protected override void Start() {
         base.Start();
         _health.maxValue = 100;
+        DontDestroyOnLoad(this);
     }
     public override void Die() {
-        Destroy(gameObject);
-        SceneManager.LoadScene("DeathScreen");
+        if (killable) {
+            Destroy(gameObject);
+            SceneManager.LoadScene("DeathScene");
+        }
     }
-
 
 }
